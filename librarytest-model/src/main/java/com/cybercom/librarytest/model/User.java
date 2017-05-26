@@ -26,6 +26,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 })
 @Table(name = "LIBUSER")
 public class User extends BaseEntity implements Comparable<User> {
+    
 	public static final String FIND_ALL = "User.findAll";
 	public static final String FIND_WITH_DISPLAY_NAME = "User.findWithName";
 
